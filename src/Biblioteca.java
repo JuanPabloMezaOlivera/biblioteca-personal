@@ -35,7 +35,22 @@ public class Biblioteca {
             }else {
                 System.out.println("libro no encontrado ingrese nombre correcto");
             }
+        }}
+        public static void listarLibros() {
+
+            if (libros.isEmpty()) {
+                System.out.println("No hay libros registrados.");
+                return;
+            }
+
+            for (Libro l : libros) {
+                System.out.println(l);
+            }
+        }
+        public static int contarLibros() {
+            return libros.size();
         }
 
-    }
+
+
 }
