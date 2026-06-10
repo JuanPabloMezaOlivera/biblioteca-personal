@@ -21,18 +21,21 @@ public class Biblioteca {
         System.out.println("Libro registrado correctamente ✔");
     }
 
-    public static void listarLibros() {
+    public static void buscarLibro() {
 
-        if (libros.isEmpty()) {
-            System.out.println("No hay libros registrados.");
-            return;
-        }
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ingrese el nombre del libro a buscar:");
+        String nombre = sc.nextLine();
 
         for (Libro l : libros) {
-            System.out.println(l);
+            if (l.getNombre().equalsIgnoreCase(nombre)) {
+                System.out.println("Encontrado: " + l);
+                return;
+            }else {
+                System.out.println("libro no encontrado ingrese nombre correcto");
+            }
         }
+
     }
-
-
-
 }
