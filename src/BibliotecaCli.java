@@ -43,9 +43,13 @@ public class BibliotecaCli {
                     break;
                 case 3:
                     System.out.println("Contar libros");
+                    System.out.println("Contar libros: " + Biblioteca.contarLibros());
+
                     break;
                 case 4:
                     System.out.println("Listar libros");
+                    Biblioteca.listarLibros();
+
                     break;
                 case 5:
                     System.out.println("Saliendo...");
