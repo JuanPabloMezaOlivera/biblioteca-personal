@@ -62,6 +62,8 @@ El proyecto utilizó ramas por funcionalidad y Pull Requests con revisión oblig
 | #11 | combinar funcionalidades | Jesús | Merged |
 | #13 | combinar funcionalidades | Jesús | Merged |
 
-**Evidencias**
+**Evidencias*
+<img width="1397" height="948" alt="image" src="https://github.com/user-attachments/assets/ff2f743e-88c6-458f-8af7-a1b7712ad06d" />
+
 
 <!-- Agregar capturas de pantalla del flujo de trabajo aquí -->
